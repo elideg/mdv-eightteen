@@ -10,7 +10,7 @@ export class AppComponent {
   // title = 'dashboard';
 
   links = [
-    { path: '/items', icon: 'work', title: 'Items' }
+    { path: '/cars', icon: 'work', title: 'Cars' }
   ]
 
   userIsAuthenticated = this.authService.isAuthenticated;
